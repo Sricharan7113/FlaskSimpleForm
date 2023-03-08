@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" type ="text/css" href="{{ url_for('static',filename='style.css') }}"> -->
+   <link rel="stylesheet" href="static/Styling.css"> 
+ 
+
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <div class="Container" id="Container" name="Container">
+        <form class="SimpleForm" id="SimpleForm" name="SimpleForm" action="/Confirmation" method="post" >
+
+            <label>Name</label>
+            <input type="text" name="Name" id="Name" class="Name">
+    
+            <label>Mail id</label>
+            <input type="mail" name="Mailid" id="Mailid" class="Mailid">
+    
+            <input type="submit" name="SubmitBtn" id="SubmitBtn" class="SubmitBtn" value="register"> 
+        </form>
+
+        
+    </div>
+    
+</body>
+</html>
